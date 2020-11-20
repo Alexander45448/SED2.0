@@ -21,7 +21,7 @@ document.getElementById('btnLogin').onclick = (e) => {
             throw serialized.message
 
         localStorage.setItem('user', serialized)
-        window.location.href = document.URL + 'home.html'
+        window.location.href = document.URL + 'Home.html'
     })
     .catch(err => {
         console.log(err);
