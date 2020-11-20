@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="module" defer src="./script//home.js"></script>
     <title>HOME</title>
 </head>
 
@@ -21,22 +22,20 @@
                 <table class="table table-hover">
                     <thead>
                         <tr class="table-dark">
-                            <th scope="col">Flight number</th>
-                            <th scope="col">Departure time</th>
-                            <th scope="col">Check In</th>
+                            <th scope="col">Flight ID</th>
+                            <th scope="col">Schedule</th>
                             <th scope="col">Price</th>
-                            <th scope="col">destination</th>
+                            <th scope="col">Origin</th>
+                            <th scope="col">Destination</th>
                         </tr>
                     </thead>
-                    <tbody id="table_body">
+                    <tbody id="homeTableBody">
 
                     </tbody>
                 </table>
             </section>
 
-            <a href="Vuelo.html"><button class="btn">Buy your Flights</a></button>
-            <a href="Actualizar.html"><button class="btn">Update your Flights</a></button>
-
+            <a href="./flightSelect.html"><button class="btn">Buy your Flights</a></button>
         </div>
 </body>
 

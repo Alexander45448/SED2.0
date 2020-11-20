@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="module" defer src="./script/buy.js"></script>
+    <title>Select flights</title>
+</head>
+<body>
+    <div class="container-fluid" id="main-container">
+        <br>
+        <div class="jumbotron">
+            <h1>
+                Available Flights
+            </h1>
+            <section>
+                <table class="table table-hover" id="main-table">
+                    <thead>
+                        <tr class="table-dark">
+                            <th scope="col">Flight ID</th>
+                            <th scope="col">Schedule</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Origin</th>
+                            <th scope="col">Destination</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBuyBody">
+                        
+                    </tbody>
+                </table>
+            </section>
+
+            <a href="./home.html"><button class="btn">Return to home page</a></button>
+        </div>
+</body>
+</html>
