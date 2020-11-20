@@ -46,7 +46,7 @@ function createFlights(flights) {
                     throw serialized.message
                 
                 alert('Flight purchased')
-                window.location.href = '/home.html'
+                window.location.href = document.URL + 'home.html'
             })
             .catch(err => {
                 alert(err)
