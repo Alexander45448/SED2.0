@@ -17,11 +17,11 @@ document.getElementById('btnLogin').onclick = (e) => {
     })
     .then((res) => res.json())
     .then(serialized => {
+        alert(document.URL);
         if(serialized.error)
             throw serialized.message
 
         localStorage.setItem('user', serialized)
-        alert(document.URL);
         window.location.href = document.URL + '/home.html'
     })
     .catch(err => {
