@@ -17,7 +17,7 @@ document.getElementById('btnRegister').onclick = (e) => {
         if(serialized.error)
             throw serialized.message
         else{
-            window.location.href = "../index.html"
+            window.location.href = "/index.html"
             alert('Now try to login')
         }
     })
