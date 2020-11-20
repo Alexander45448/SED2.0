@@ -21,7 +21,7 @@ document.getElementById('btnLogin').onclick = (e) => {
             throw serialized.message
 
         localStorage.setItem('user', serialized)
-        window.location.href = '../Home.html'
+        window.location.href = './Home.html'
     })
     .catch(err => {
         console.log(err);
@@ -31,5 +31,5 @@ document.getElementById('btnLogin').onclick = (e) => {
 document.getElementById('btnRegisterRed').onclick = (e) => {
     e.preventDefault()
 
-    window.location.href = "../register.html"
+    window.location.href = "./register.html"
 }
